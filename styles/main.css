@@ -1,0 +1,110 @@
+@import 'icons.css';
+
+/*
+Welcome Section
+------------------------------------------------*/
+
+.welcome {
+	background-size: cover;
+	height: 100%;
+	margin-top: 100px;
+}
+
+.welcome h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.welcome h2 {
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+
+.welcome .intro {
+	font-size: 20px;
+}
+
+
+/*
+Services Section
+------------------------------------------------*/
+
+.services {
+	background-size: cover;
+	height: 100%;
+}
+
+.services h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.services h3 {
+	font-size: 16px;
+}
+
+.services img {
+
+}
+
+
+/*
+About Section
+------------------------------------------------*/
+
+.about {
+	background-size: cover;
+	height: 100%;
+}
+
+.about h2 {
+	font-size: 34px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.about p {
+
+}
+
+
+/*
+Join Us Section
+------------------------------------------------*/
+
+.join-us {
+	background-size: cover;
+	margin-bottom: 100px;
+}
+
+.join-us h2 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.join-us button {
+	background-color: #ECECEC;
+	padding: 10px;
+}
+
+.join-us button a {
+
+}
+
+
+/*
+Custom rules for smaller screens
+------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+
+
+
+
