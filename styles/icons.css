@@ -37,3 +37,10 @@ Icons
 	width: 94px;
 	height: 85px;
 }
+
+.icon.icon-fancy-br {
+	background: url(../assets/icon-fancy-br.svg);
+	max-width: 290px;
+	height: 17px;
+	margin: 40px auto;
+}
