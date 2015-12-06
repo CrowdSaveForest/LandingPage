@@ -1,28 +1,46 @@
-@import 'icons.css';
-
 /*
 Welcome Section
 ------------------------------------------------*/
 
 .welcome {
-	background-size: cover;
-	height: 100%;
-	margin-top: 100px;
+	background-image: url(../assets/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 .welcome h1 {
 	font-size: 60px;
+	color: #FFFFFF;
+    text-shadow: 2px 3px rgba(0,0,0,0.5);
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	padding: 150px 15px 15px 15px;
 }
 
 .welcome h2 {
-	font-size: 34px;
-	margin-bottom: 30px;
+	font-size: 24px;
+	color: #FFFFFF;
+    text-shadow: 2px 1px rgba(0,0,0,0.5);
+    padding: 0 15px;
+    margin-bottom: 100px;
 }
 
-.welcome .intro {
-	font-size: 20px;
+
+/*
+Intro Section
+------------------------------------------------*/
+
+#intro {
+	background-color: rgba(16,34,21,0.2);
+}
+
+.services .intro {
+	font-size: 24px;
+	color: #102215;
+	padding: 0 20%;
+	text-align: center;
+	margin: 100px auto 0 auto;
 }
 
 
@@ -33,20 +51,23 @@ Services Section
 .services {
 	background-size: cover;
 	height: 100%;
+	overflow: visible;
+	padding-bottom: 100px;
+	border-bottom: 10px solid #ECECEC;
+	padding: 0 40px;
 }
 
 .services h2 {
 	font-size: 20px;
+	color: #102215;
 	text-transform: uppercase;
 	line-height: 1.5;
+	padding-bottom: 10px;
 }
 
 .services h3 {
 	font-size: 16px;
-}
-
-.services img {
-
+	padding-top: 20px;
 }
 
 
@@ -56,7 +77,11 @@ About Section
 
 .about {
 	background-size: cover;
-	height: 100%;
+	width: 100%;
+	min-height: 500px;
+	height: auto;
+	margin-bottom: 100px;
+	background-color: rgba(16,34,21,0.2);
 }
 
 .about h2 {
@@ -80,17 +105,13 @@ Join Us Section
 }
 
 .join-us h2 {
-	font-size: 24px;
+	font-size: 34px;
 	margin-bottom: 40px;
 }
 
-.join-us button {
-	background-color: #ECECEC;
-	padding: 10px;
-}
-
-.join-us button a {
-
+.join-us a.large.button {
+	margin-top: 50px;
+	width: 250px;
 }
 
 
@@ -100,6 +121,20 @@ Custom rules for smaller screens
 
 @media screen and (max-width: 768px) {
 
+	.welcome h1 {
+		font-size: 40px;
+		padding: 100px 15px 15px 15px;
+	}
+
+	.welcome h2 {
+		font-size: 18px;
+	}
+
+	.services .intro {
+		font-size: 18px;
+		padding: 0 15px;
+		margin: 20px auto 0 auto;
+	}
 }
 
 

@@ -4,28 +4,36 @@ Icons
 
 .icon {
 	background-repeat: no-repeat;
+	border: none;
+	margin: 0 auto;
 }
 
-.icon .icon-people {
-	background: url(../assets/icon-people.png);
-	width: 60px;
-	height: 60px;
+.icon.icon-read-more {
+	background: url(../assets/icon-read-more.svg);
+	width: 80px;
+	height: 80px;
 }
 
-.icon .icon-crowd-funding {
-	background: url(../assets/icon-crowd-funding.png);
-	width: 60px;
-	height: 60px;
+.icon.icon-people {
+	background: url(../assets/icon-people.svg);
+	width: 100px;
+	height: 85px;
 }
 
-.icon .icon-land-acquisition {
-	background: url(../assets/icon-land-acquisition.png);
-	width: 60px;
-	height: 60px;
+.icon.icon-crowd-funding {
+	background: url(../assets/icon-crowdfunding.svg);
+	width: 80px;
+	height: 80px;
 }
 
-.icon .icon-land-preservation {
-	background: url(../assets/icon-land-preservation.png);
-	width: 60px;
-	height: 60px;
+.icon.icon-land-acquisition {
+	background: url(../assets/icon-land-acquisition.svg);
+	width: 65px;
+	height: 90px;
+}
+
+.icon.icon-land-preservation {
+	background: url(../assets/icon-land-preservation.svg);
+	width: 94px;
+	height: 85px;
 }
