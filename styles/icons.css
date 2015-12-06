@@ -44,3 +44,11 @@ Icons
 	height: 17px;
 	margin: 40px auto;
 }
+
+@media screen and (max-width: 640px) {
+	.icon.icon-fancy-br {
+		background: url(../assets/icon-fancy-br-small.svg);
+		max-width: 131px;
+		height: 17px;
+	}
+}

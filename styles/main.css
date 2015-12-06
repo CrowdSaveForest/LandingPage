@@ -55,7 +55,6 @@ Services Section
 }
 
 .services.suggestions {
-	display: block;
 	padding: 10% 40px 0 40px;
 }
 
@@ -80,7 +79,7 @@ About Section
 .about {
 	width: 100%;
 	height: auto;
-	padding: 10% 40px 0 40px;
+	padding: 0 40px 0 40px;
 }
 
 .about h2 {
@@ -104,7 +103,7 @@ Join Us Section
 
 .join-us a.large.button {
 	margin-top: 50px;
-	width: 250px;
+	width: 200px;
 }
 
 
@@ -112,7 +111,13 @@ Join Us Section
 Custom rules for smaller screens
 ------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	.services.suggestions .item {
+		margin-bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 640px) {
 
 	.welcome h1 {
 		font-size: 40px;
@@ -126,10 +131,14 @@ Custom rules for smaller screens
 	.services .intro {
 		font-size: 18px;
 		padding: 0 15px;
+		text-align: left !important;
 		margin: 20px auto 0 auto;
 	}
-}
 
+	.services.suggestions .item {
+		margin-bottom: 60px;
+	}
+}
 
 
 
