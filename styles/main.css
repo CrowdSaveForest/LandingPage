@@ -38,9 +38,9 @@ Intro Section
 .services .intro {
 	font-size: 24px;
 	color: #102215;
-	padding: 0 20%;
+	padding: 10% 20%;
 	text-align: center;
-	margin: 100px auto 0 auto;
+	margin: 0 auto;
 }
 
 
@@ -49,12 +49,16 @@ Services Section
 ------------------------------------------------*/
 
 .services {
-	background-size: cover;
 	height: 100%;
 	overflow: visible;
 	padding-bottom: 100px;
 	border-bottom: 10px solid #ECECEC;
 	padding: 0 40px;
+}
+
+.services.suggestions {
+	display: block;
+	padding: 10% 40px;
 }
 
 .services h2 {
@@ -76,22 +80,14 @@ About Section
 ------------------------------------------------*/
 
 .about {
-	background-size: cover;
 	width: 100%;
-	min-height: 500px;
 	height: auto;
-	margin-bottom: 100px;
-	background-color: rgba(16,34,21,0.2);
+	padding: 10% 40px 0 40px;
 }
 
 .about h2 {
 	font-size: 34px;
-	text-transform: uppercase;
 	margin-bottom: 30px;
-}
-
-.about p {
-
 }
 
 
@@ -100,8 +96,7 @@ Join Us Section
 ------------------------------------------------*/
 
 .join-us {
-	background-size: cover;
-	margin-bottom: 100px;
+	padding: 10% 40px;
 }
 
 .join-us h2 {
