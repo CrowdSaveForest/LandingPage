@@ -31,10 +31,6 @@ Welcome Section
 Intro Section
 ------------------------------------------------*/
 
-#intro {
-	background-color: rgba(16,34,21,0.2);
-}
-
 .services .intro {
 	font-size: 24px;
 	color: #102215;
@@ -50,12 +46,11 @@ Services Section
 
 .services {
 	height: auto;
-	min-height: 100%;
 	padding: 0 40px;
 }
 
 .services.suggestions {
-	padding: 10% 40px 0 40px;
+	padding: 0 40px 10% 40px;
 }
 
 .services h2 {
@@ -79,7 +74,7 @@ About Section
 .about {
 	width: 100%;
 	height: auto;
-	padding: 0 40px 0 40px;
+	padding: 0 40px 10% 40px;
 }
 
 .about h2 {
@@ -89,11 +84,55 @@ About Section
 
 
 /*
+Concept Section
+------------------------------------------------*/
+
+.concept {
+	width: 100%;
+	height: auto;
+	padding: 0 40px 10% 40px;
+}
+
+.concept h2 {
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+
+.concept p {
+	font-size: 24px;
+}
+
+.concept ul {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.concept ul li {
+	font-size: 20px;
+	list-style: none;
+	margin-bottom: 60px;
+}
+
+.concept ul li.list-number {
+	background-color: #ECECEC;
+	box-shadow: 1px 2px 1px rgba(0,0,0,0.2);
+	color: #333333;
+	font-weight: 500;
+	line-height: 2.4;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 20px auto;
+
+}
+
+
+/*
 Join Us Section
 ------------------------------------------------*/
 
 .join-us {
-	padding: 10% 40px;
+	padding: 0 40px 30% 40px;
 }
 
 .join-us h2 {
@@ -130,13 +169,17 @@ Custom rules for smaller screens
 
 	.services .intro {
 		font-size: 18px;
-		padding: 0 15px;
+		padding: 0 15px !important;
 		text-align: left !important;
 		margin: 100px auto;
 	}
 
 	.services.suggestions .item {
 		margin-bottom: 60px;
+	}
+
+	.concept ul {
+		width: 100%;
 	}
 }
 
