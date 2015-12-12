@@ -167,6 +167,7 @@ Custom rules for smaller screens
 		font-size: 18px;
 	}
 
+
 	.services .intro {
 		font-size: 18px;
 		padding: 0 15px !important;
@@ -181,10 +182,7 @@ Custom rules for smaller screens
 	.concept ul {
 		width: 100%;
 	}
+	.concept p {
+		font-size: 18px;
+	}
 }
-
-
-
-
-
-
