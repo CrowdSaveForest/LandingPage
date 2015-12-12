@@ -28,6 +28,15 @@ Welcome Section
 
 
 /*
+vision
+----------------------*/
+.vision p {
+	font-size: 20px;
+}
+
+
+
+/*
 Intro Section
 ------------------------------------------------*/
 
@@ -81,6 +90,10 @@ About Section
 	font-size: 34px;
 	margin-bottom: 30px;
 }
+/*
+Vision and concept
+--------------------------------- */
+
 
 
 /*

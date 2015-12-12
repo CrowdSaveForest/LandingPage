@@ -20,6 +20,18 @@ Icons
 	height: 85px;
 }
 
+.icon.icon-github {
+	background: url(../assets/icon-github.svg);
+	width: 60px;
+	height: 60px;
+}
+
+.icon.icon-twitter {
+	background: url(../assets/icon-twitter.svg);
+	height: 150px;
+	width: 150px;
+}
+
 .icon.icon-crowd-funding {
 	background: url(../assets/icon-crowdfunding.svg);
 	width: 80px;
