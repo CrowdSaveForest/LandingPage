@@ -264,6 +264,12 @@ Custom rules for smaller screens
 	.navigation .title h1 {
 		text-align: right;
 	}
+	nav .back {
+		text-align: left;
+		/*width: 165px;*/
+		font-size: 14px;
+		left: 5px;
+	}
 	.welcome h1 {
 		font-size: 40px;
 		padding: 100px 15px 15px 15px;
