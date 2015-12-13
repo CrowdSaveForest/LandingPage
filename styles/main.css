@@ -261,7 +261,9 @@ Custom rules for smaller screens
 }
 
 @media screen and (max-width: 640px) {
-
+	.navigation .title h1 {
+		text-align: right;
+	}
 	.welcome h1 {
 		font-size: 40px;
 		padding: 100px 15px 15px 15px;
